@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section className="hero">
@@ -7,8 +9,9 @@ function Hero() {
       <p className="hero-subtitle">
         Desarrolladora Web | React | JavaScript | Backend en formación
       </p>
-      import { Link } from "react-router-dom";
-      <Link to="/proyectos" className="hero-button">Ver mis proyectos</Link>
+      <Link to="/proyectos" className="hero-button">
+        Ver mis proyectos
+      </Link>
     </section>
   );
 }
