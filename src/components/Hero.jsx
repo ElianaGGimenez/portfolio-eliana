@@ -7,7 +7,8 @@ function Hero() {
       <p className="hero-subtitle">
         Desarrolladora Web | React | JavaScript | Backend en formación
       </p>
-      <a href="/proyectos" className="hero-button">Ver mis proyectos</a>
+      import { Link } from "react-router-dom";
+      <Link to="/proyectos" className="hero-button">Ver mis proyectos</Link>
     </section>
   );
 }
